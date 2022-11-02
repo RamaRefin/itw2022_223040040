@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <tittle>Tabel</tittle>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <td>Baris1 kolom 1</td>
+        <td>Baris1 kolom 2</td>
+      </tr>
+      <tr>
+        <td>Baris2 Kolom1</td>
+        <td>baris2 Kolom2</td>
+      </tr>
+    </table>
+  </body>
+</html>
+<html>
+  <head>
+    <tittle>Tabel</tittle>
+  </head>
+  <body>
+    <table width="30%" border="1">
+      <tr>
+        <td rowspan="5">rowspan = 5</td>
+        <td colspan="2">colspan = 2</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+</html>
+<html>
+  <head>
+    <tittle>Tabel</tittle>
+  </head>
+  <body>
+    <table width="30%" border="5" cellspacing="10" cellpading="15">
+      <tr>
+        <td>abc</td>
+        <td>def</td>
+      </tr>
+      <tr>
+        <td>ghi</td>
+        <td>jkl</td>
+      </tr>
+    </table>
+  </body>
+</html>
