@@ -1,0 +1,36 @@
+body {
+  background-image: url(playstationgame.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: comic san ms;
+  font-size: 60px;
+  color: darkblue;
+}
+
+h4 {
+  text-align: right;
+  font-style: italic;
+}
+
+p {
+  text-align: justify;
+}
+
+#teks1 {
+  color: white;
+}
+
+#teks2 {
+  color: white;
+}
+
+h3 a:hover {
+  color: red;
+}
+
+p a:hover {
+  color: red;
+}
