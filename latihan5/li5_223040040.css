@@ -1,0 +1,139 @@
+body {
+  font-family: "Avenir Next";
+}
+
+body {
+  background-image: url(Blackpantherbg.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+  padding: 20px 30px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  color: white;
+  padding: 20px 30px;
+}
+
+.header {
+  background-color: black;
+  height: 90px;
+  box-shadow: 5px 5px 20px black;
+  opacity: 0.5;
+}
+
+.header:hover {
+  opacity: 1;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: grey;
+  color: white;
+}
+
+.header-list li {
+  font-size: 25px;
+  float: left;
+  color: white;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: black;
+  width: 98%;
+  height: 140px;
+  padding-left: 10px;
+  line-height: 15px;
+  color: #fff;
+  position: absolute;
+  bottom: -100px;
+  box-shadow: 10px 10px 50px 10px black;
+  opacity: 0.5;
+}
+
+.footer:hover {
+  opacity: 1;
+}
+
+.footer-logo {
+  color: white;
+  font-size: 35px;
+  padding-left: 25px;
+  padding-top: 20px;
+  text-align: left;
+  font-family: "reaver", serif;
+  text-shadow: 0px 0px 20px black;
+  margin-top: 40px;
+}
+
+.footer-list li {
+  color: white;
+  font: 36px;
+  list-style: none;
+  margin: 20px 30px;
+  text-align: right;
+}
+
+.copy-container h1 {
+  font-size: 30px;
+  line-height: 113%;
+  font-family: "Reaver", serif;
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: #ffffffee;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 20px #000;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.copy-container h2 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 20px black;
+}
+
+.image {
+  float: left;
+  margin-left: 100px;
+  padding: -20px;
+  position: relative;
+}
+
+.image p {
+  text-align: center;
+  font-family: "avenir next", serif;
+  font-style: italic;
+  font-weight: 900;
+  color: white;
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(200, 200, 200, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  line-height: 200px;
+  text-shadow: 1px 1px 1px #000;
+  opacity: 0;
+}
+
+.image a:hover p {
+  opacity: 1;
+}

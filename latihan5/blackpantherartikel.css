@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(Background.jpeg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  background-color: black;
+  height: 90px;
+  box-shadow: 5px 5px 20px black;
+  opacity: 0.5;
+}
+
+.header:hover {
+  opacity: 1;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  color: white;
+  padding: 20px 30px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: grey;
+  color: white;
+}
+
+.header-list li {
+  font-size: 25px;
+  float: left;
+  color: white;
+  margin: 20px 20px;
+  padding-top: 7px;
+  list-style: none;
+}
+
+.hero {
+  background-color: black;
+  width: 800px;
+  margin: auto;
+}
+
+.content h1 {
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  font-style: italic;
+  font-family: "avenir next", serif;
+}
+
+.footer-logo {
+  font-size: 20px;
+  font-family: "avenir next", serif;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.image {
+  text-align: center;
+}
+
+.image h1 {
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.text p {
+  color: white;
+  font-family: "reaver", serif;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 25px;
+  padding: 30px 20px;
+  text-align: justify;
+}
+
+.overlay {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  transition: 0.6s;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0px;
+  right: 0px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.overlay img {
+  max-height: 100%;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.overlay .close {
+  position: absolute;
+  bottom: 50px;
+  left: 49%;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border: 1px solid white;
+  line-height: 14px;
+  padding: 5px;
+}

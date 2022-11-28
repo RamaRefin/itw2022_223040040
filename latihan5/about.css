@@ -1,0 +1,118 @@
+body {
+  font-family: "Avenir Next";
+}
+
+body {
+  background-image: url(Vapor.jpg);
+  height: 300%;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+  padding: 20px 30px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  color: white;
+  padding: 20px 30px;
+}
+
+.header {
+  background-color: black;
+  height: 90px;
+  box-shadow: 5px 5px 20px black;
+  opacity: 0.5;
+}
+
+.header:hover {
+  opacity: 1;
+}
+
+.header-list li {
+  font-size: 25px;
+  float: left;
+  color: white;
+  margin-top: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: grey;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  width: 98%;
+  height: 140px;
+  padding-left: 10px;
+  line-height: 15px;
+  color: #fff;
+  position: absolute;
+  bottom: -100px;
+  box-shadow: 10px 10px 50px 10px black;
+  opacity: 0.5;
+}
+
+.footer:hover {
+  opacity: 1;
+}
+
+.footer-logo {
+  color: white;
+  font-size: 35px;
+  padding-left: 25px;
+  padding-top: 20px;
+  text-align: left;
+  font-family: "reaver", serif;
+  text-shadow: 0px 0px 20px black;
+  margin-top: 40px;
+}
+
+.footer-list li {
+  color: white;
+  font: 36px;
+  list-style: none;
+  margin: 20px 30px;
+  text-align: right;
+}
+
+.copy-container h1 {
+  font-size: 30px;
+  line-height: 113%;
+  font-family: "Reaver", serif;
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: #ffffffee;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 20px #000;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.image1 {
+  margin: auto;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.text p {
+  color: white;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  margin: 20px 20px;
+  text-shadow: 0px 0px 0px 20px black;
+}
